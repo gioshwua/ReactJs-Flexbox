@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Header > h1:nth-child(1) {
+  color: black;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: center;
+  background-color: rgb(34, 209, 171);
+  width: 100%;
+}
+.Header > h1:nth-child(2) {
+  font-size: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: center;
+  background-color: black;
+}
+
+.MainContent {
+  height: 500px;
+  text-align: center;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.MainContent > div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid;
+  width: 230px;
+  height: 400px;
+}
+
+.MainContent > div > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+  background-color: rgb(70, 193, 220);
+}
+
+button {
+  border: 0px;
+  border-radius: 5px;
+  background-color: aqua;
+  padding: 10px 20px;
+}
+button > a {
+  text-decoration: none;
+  color: black;
+}
+p {
+  padding: 20px;
+}
